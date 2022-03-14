@@ -1,0 +1,73 @@
+.dataCentersSec{
+    padding: 60px 0;
+    .dataCentersContent{
+        max-width: 780px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .panelWrap{
+        .nav{
+            justify-content: space-evenly;
+            border-bottom: 2px solid gray;
+        }
+        .nav-pills {
+        .nav-link{
+            color: rgba(66,82,110,.6);
+            background-color: #ffffff;
+        &.active,
+        .show>.nav-link{
+            color: #2F39BF;
+            font-size: 20px;
+            margin-bottom:-1px ;
+            background: #ffffff;
+            border-bottom: 2px solid #2F39BF;
+            border-radius: 0;
+            transition: all .3s ease-in-out;
+            }
+          }
+        }
+    }
+    .tab-content{
+        .tab-pane{
+        .cardsWrap{
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            .card{
+                width: calc(33.33% - 60px);
+               
+                .cardDetails{
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    padding: 20px;
+                    .countriesDetails{
+                        h4,p{
+                            margin: 0;
+                        }
+                    }
+                    .flag{
+                        width: 60px;
+                    }
+       
+            }
+            .providerBox{
+                padding: 10px 15px 5px;
+                background-color: #f7f7f7;
+                
+                ul{
+                    margin: 0;
+                    display: flex;
+                    align-items: center;
+                    li{
+                        img{
+                            width: 3rem;
+                        }
+                    }
+                }
+            }
+            }
+        }
+    }
+}
+}

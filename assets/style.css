@@ -1,0 +1,89 @@
+.dataCentersSec {
+  padding: 60px 0;
+}
+
+.dataCentersSec .dataCentersContent {
+  max-width: 780px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.dataCentersSec .panelWrap .nav {
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  border-bottom: 2px solid gray;
+}
+
+.dataCentersSec .panelWrap .nav-pills .nav-link {
+  color: rgba(66, 82, 110, 0.6);
+  background-color: #ffffff;
+}
+
+.dataCentersSec .panelWrap .nav-pills .nav-link.active,
+.dataCentersSec .panelWrap .nav-pills .nav-link .show > .nav-link {
+  color: #2F39BF;
+  font-size: 20px;
+  margin-bottom: -1px;
+  background: #ffffff;
+  border-bottom: 2px solid #2F39BF;
+  border-radius: 0;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+.dataCentersSec .tab-content .tab-pane .cardsWrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.dataCentersSec .tab-content .tab-pane .cardsWrap .card {
+  width: calc(33.33% - 60px);
+}
+
+.dataCentersSec .tab-content .tab-pane .cardsWrap .card .cardDetails {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px;
+}
+
+.dataCentersSec .tab-content .tab-pane .cardsWrap .card .cardDetails .countriesDetails h2, .dataCentersSec .tab-content .tab-pane .cardsWrap .card .cardDetails .countriesDetails p {
+  margin: 0;
+}
+
+.dataCentersSec .tab-content .tab-pane .cardsWrap .card .cardDetails .flag {
+  width: 60px;
+}
+
+.dataCentersSec .tab-content .tab-pane .cardsWrap .card .providerBox {
+  padding: 10px 15px 5px;
+  background-color: #f7f7f7;
+}
+
+.dataCentersSec .tab-content .tab-pane .cardsWrap .card .providerBox ul {
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.dataCentersSec .tab-content .tab-pane .cardsWrap .card .providerBox ul li img {
+  width: 3rem;
+}
+/*# sourceMappingURL=style.css.map */
