@@ -36,15 +36,16 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
 
 .dataCentersSec .tab-content .tab-pane .cardsWrap .card {
   width: calc(33.33% - 60px);
+  margin: 20px;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
 }
 
 .dataCentersSec .tab-content .tab-pane .cardsWrap .card .cardDetails {
@@ -60,12 +61,15 @@
   padding: 20px;
 }
 
-.dataCentersSec .tab-content .tab-pane .cardsWrap .card .cardDetails .countriesDetails h2, .dataCentersSec .tab-content .tab-pane .cardsWrap .card .cardDetails .countriesDetails p {
+.dataCentersSec .tab-content .tab-pane .cardsWrap .card .cardDetails .countriesDetails h5, .dataCentersSec .tab-content .tab-pane .cardsWrap .card .cardDetails .countriesDetails p {
   margin: 0;
+  padding-right: 10px;
 }
 
 .dataCentersSec .tab-content .tab-pane .cardsWrap .card .cardDetails .flag {
-  width: 60px;
+  width: 50px;
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
 
 .dataCentersSec .tab-content .tab-pane .cardsWrap .card .providerBox {
@@ -83,7 +87,11 @@
           align-items: center;
 }
 
+.dataCentersSec .tab-content .tab-pane .cardsWrap .card .providerBox ul li {
+  margin-right: 10px;
+}
+
 .dataCentersSec .tab-content .tab-pane .cardsWrap .card .providerBox ul li img {
-  width: 3rem;
+  width: 30px;
 }
 /*# sourceMappingURL=style.css.map */
